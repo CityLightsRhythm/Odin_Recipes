@@ -1,0 +1,109 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+    flex-wrap:wrap;
+}
+
+body{
+  min-height:100vh;
+  
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+
+#card-wrapper{
+background-image:url(images/Charity-BethLemonade.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  min-width:500px;
+  min-height:750px;
+  color:black;
+  box-shadow: 5px 5px 15px; 
+  font-family: 'Abril Fatface', cursive;
+  order:2;
+  margin-top:50px;
+} 
+
+.inner-card{
+  padding:2em;
+}
+
+.more-info-btn{
+  display:flex;
+  justify-content:flex-end;
+}
+.btn-background{
+  background:white;
+  padding:.9em;
+  border-radius:50%;
+  font-size:20px;
+  color:black;
+}
+
+#title{
+  font-size:50px;
+  margin-top:25px;
+}
+
+#details{
+  display:flex;
+  justify-content:space-around;
+  margin-top:50px;
+}
+
+.start-btn{
+  display:flex;
+  justify-content:center;
+  margin-top:290px;
+}
+.start-btn a{
+  background:white;
+  color:black;
+  padding:.6em;
+  width:200px;
+  border-radius:20px;
+  text-align:center;
+  box-shadow: .5px 1px 5px;
+  text-decoration:none;
+}
+
+.start-btn .fas{
+  margin-left:10px;
+}
+
+
+/*Second Card*/
+#card-wrapper1{
+background-image:url(images/Fried-Oreo.jpeg);
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  min-width:500px;
+  min-height:750px;
+  color:black;
+  box-shadow: 5px 5px 15px black; 
+  font-family: 'Abril Fatface', cursive;
+  color:white;
+  order:3;
+   margin-top:50px;
+} 
+
+/*Third Card*/
+#card-wrapper2{
+background-image:url(images/Corn-Dogs.jpeg);
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  min-width:500px;
+  min-height:750px;
+  color:black;
+  box-shadow: 5px 5px 15px black; 
+  font-family: 'Abril Fatface', cursive;
+  color:white;
+  order:1;
+  margin-top:50px;
+} 
+
